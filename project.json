@@ -2,8 +2,9 @@
   "name": "CT-Pedidos",
   "projectId": "86be3875-e20f-42a5-9e59-3e8bb7cdcc87",
   "description": "CT-PEDIDOS",
-  "main": "Main.xaml",
+  "main": "Principal.xaml",
   "dependencies": {
+    "UiPath.GSuite.Activities": "[3.3.10]",
     "UiPath.System.Activities": "[23.10.6]",
     "UiPath.UIAutomation.Activities": "[23.10.9]"
   },
@@ -46,8 +47,8 @@
   "expressionLanguage": "VisualBasic",
   "entryPoints": [
     {
-      "filePath": "Main.xaml",
-      "uniqueId": "9070cc73-48f3-4da0-a00c-6c51ffbf5fb1",
+      "filePath": "Principal.xaml",
+      "uniqueId": "c689fdbc-d6e8-4c86-ac31-eb4526ccfde7",
       "input": [],
       "output": []
     }
