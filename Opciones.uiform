@@ -1,0 +1,49 @@
+﻿{
+  "Metadata": {
+    "Id": "fba3b70b-1cd7-41f7-a1a7-f010b962c952",
+    "Kind": "FormIo"
+  },
+  "DesignProperties": {
+    "Title": "Opciones",
+    "Theme": "Default",
+    "ShowInTaskbar": true,
+    "ShowMargin": true,
+    "CustomStyle": ""
+  },
+  "Data": {
+    "components": [
+      {
+        "label": "Seleccione el proceso a realizar",
+        "widget": "choicesjs",
+        "tableView": true,
+        "data": {
+          "values": [
+            {
+              "label": "Seleccione el proceso",
+              "value": "seleccione"
+            },
+            {
+              "label": "Registro EK",
+              "value": "registro"
+            },
+            {
+              "label": "Timbrado",
+              "value": "timbrado"
+            }
+          ]
+        },
+        "key": "seleccioneElProcesoARealizar",
+        "type": "select",
+        "input": true
+      },
+      {
+        "type": "button",
+        "label": "Submit",
+        "key": "submit",
+        "disableOnInvalid": true,
+        "input": true,
+        "tableView": false
+      }
+    ]
+  }
+}

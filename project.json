@@ -4,6 +4,8 @@
   "description": "CT-PEDIDOS",
   "main": "Principal.xaml",
   "dependencies": {
+    "UiPath.Form.Activities": "[25.4.3]",
+    "UiPath.FormActivityLibrary": "[2.0.8]",
     "UiPath.GSuite.Activities": "[3.3.10]",
     "UiPath.System.Activities": "[23.10.6]",
     "UiPath.UIAutomation.Activities": "[23.10.9]"

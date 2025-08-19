@@ -115,7 +115,7 @@
       <AssemblyReference>System.Data.SqlClient</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Registrar" sap:VirtualizedContainerService.HintSize="1318,19468" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Registrar" sap:VirtualizedContainerService.HintSize="1290,22013" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="strNumRemision" />
       <Variable x:TypeArguments="x:String" Name="strSubTotal" />
@@ -172,34 +172,34 @@
         </InArgument>
       </ugas:GoogleSheetsApplicationScope.CredentialSecret>
     </ugas:GoogleSheetsApplicationScope>
-    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Remote Desktop: 10.112.20.12 - Conexión a Escritorio remoto" sap:VirtualizedContainerService.HintSize="818,19157" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="0f04d93e-22fc-491b-8192-b420f91b7806" Timeout="60" Version="V2">
+    <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Remote Desktop: 10.112.20.12 - Conexión a Escritorio remoto" sap:VirtualizedContainerService.HintSize="818,21252" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="0f04d93e-22fc-491b-8192-b420f91b7806" Timeout="60" Version="V2">
       <uix:NApplicationCard.Body>
         <ActivityAction x:TypeArguments="x:Object">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="784,18864" sap2010:WorkflowViewState.IdRef="Sequence_2">
+          <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="784,20936" sap2010:WorkflowViewState.IdRef="Sequence_2">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
               </scg:Dictionary>
             </sap:WorkflowViewStateService.ViewState>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Remote Desktop: facturacion.exe" sap:VirtualizedContainerService.HintSize="750,18802" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="4d9bf378-3600-4447-b623-1d70409eacf2" Timeout="60" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="Never" DisplayName="Use Remote Desktop: facturacion.exe" sap:VirtualizedContainerService.HintSize="750,20874" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="4d9bf378-3600-4447-b623-1d70409eacf2" Timeout="60" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="716,18444" sap2010:WorkflowViewState.IdRef="Sequence_3">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="716,20556" sap2010:WorkflowViewState.IdRef="Sequence_3">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                       </scg:Dictionary>
                     </sap:WorkflowViewStateService.ViewState>
-                    <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="682,57" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <Sequence DisplayName="Login" sap:VirtualizedContainerService.HintSize="682,2167" sap2010:WorkflowViewState.IdRef="Sequence_4">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                           <x:Boolean x:Key="IsPinned">False</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
@@ -5738,7 +5738,7 @@
                                                 <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
                                               </ActivityAction.Argument>
                                               <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_34">
-                                                <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Facturacion' (330,75,55,11)&quot; +&#xD;&#xA;&quot;Anchor: Button (289,70,103,21)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Parametros' (301,91,57,11)&quot;]" DesignTimeCacheId="81e14873-79d8-479f-8197-8b31669bb7d6" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="400,210" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_15" InformativeScreenshot="09cca3b4257db9fd83801d014e8531af" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                                                <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: Text 'Facturacion' (330,75,55,11)&quot; +&#xA;&quot;Anchor: Button (289,70,103,21)&quot; +&#xA;&quot;Anchor: Text 'Parametros' (301,91,57,11)&quot;]" DesignTimeCacheId="81e14873-79d8-479f-8197-8b31669bb7d6" DesignTimeScaleFactor="1" DisplayName="CV Click - Text" sap:VirtualizedContainerService.HintSize="400,210" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_15" InformativeScreenshot="09cca3b4257db9fd83801d014e8531af" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
                                                   <p:CvClickWithDescriptor.CursorPosition>
                                                     <ui:CursorPosition Position="Center">
                                                       <ui:CursorPosition.OffsetX>
@@ -6196,7 +6196,7 @@
                                                     </ui:Target>
                                                   </p:CvSelectItemWithDescriptor.Target>
                                                 </p:CvSelectItemWithDescriptor>
-                                                <p:CvSelectItemWithDescriptor DelayScreenshotAfterScroll="{x:Null}" DeselectAfter="{x:Null}" InRegion="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: InputBox (356,282,142,18)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Forma de Pago:' (278,285,76,13)&quot;]" DesignTimeCacheId="6f99dfcf-e787-4949-89fe-d8158858875f" DesignTimeScaleFactor="1" DisplayName="CV Dropdown Select - InputBox" EmptyField="False" sap:VirtualizedContainerService.HintSize="400,210" sap2010:WorkflowViewState.IdRef="CvSelectItemWithDescriptor_16" InformativeScreenshot="4e1b0db858c89df772f6472ccc459449" NumberOfScrolls="2" ScrollDirection="None" Text="[&quot;TRANS&quot;]" Version="V6">
+                                                <p:CvSelectItemWithDescriptor DelayScreenshotAfterScroll="{x:Null}" DeselectAfter="{x:Null}" InRegion="{x:Null}" SendWindowMessages="{x:Null}" SimulateType="{x:Null}" Activate="True" ClickBeforeTyping="True" Descriptor="[&quot;Target: InputBox (356,282,142,18)&quot; +&#xA;&quot;Anchor: Text 'Forma de Pago:' (278,285,76,13)&quot;]" DesignTimeCacheId="6f99dfcf-e787-4949-89fe-d8158858875f" DesignTimeScaleFactor="1" DisplayName="CV Dropdown Select - InputBox" EmptyField="False" sap:VirtualizedContainerService.HintSize="400,210" sap2010:WorkflowViewState.IdRef="CvSelectItemWithDescriptor_16" InformativeScreenshot="4e1b0db858c89df772f6472ccc459449" NumberOfScrolls="2" ScrollDirection="None" Text="[&quot;TRANS&quot;]" Version="V6">
                                                   <p:CvSelectItemWithDescriptor.DesignTimeDescriptor>
                                                     <uc:CvDescriptor Id="3bbd4b8a-2f58-482e-b795-805981cd2511">
                                                       <uc:CvDescriptor.Anchors>
@@ -6811,7 +6811,7 @@
                                                   <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
                                                 </ActivityAction.Argument>
                                                 <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_47">
-                                                  <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: CloseButton (390,73,18,17)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Facturacion' (328,75,57,11)&quot;]" DesignTimeCacheId="ecb5fc8b-c8c4-4014-af5b-c8173b6f3a69" DesignTimeScaleFactor="1" DisplayName="CV Click - CloseButton" sap:VirtualizedContainerService.HintSize="400,210" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_16" InformativeScreenshot="47bf9e213f8fd82597a11389457683a2" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                                                  <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: CloseButton (390,73,18,17)&quot; +&#xA;&quot;Anchor: Text 'Facturacion' (328,75,57,11)&quot;]" DesignTimeCacheId="ecb5fc8b-c8c4-4014-af5b-c8173b6f3a69" DesignTimeScaleFactor="1" DisplayName="CV Click - CloseButton" sap:VirtualizedContainerService.HintSize="400,210" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_16" InformativeScreenshot="47bf9e213f8fd82597a11389457683a2" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
                                                     <p:CvClickWithDescriptor.CursorPosition>
                                                       <ui:CursorPosition Position="Center">
                                                         <ui:CursorPosition.OffsetX>
@@ -6848,6 +6848,9 @@
                                                 </Sequence>
                                               </ActivityAction>
                                             </p:CVScope.Body>
+                                            <p:CVScope.DesignTimeCache>
+                                              <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+                                            </p:CVScope.DesignTimeCache>
                                             <p:CVScope.DesignTimeCacheContainer>
                                               <uc:CvCacheContainer>
                                                 <uc:CvCacheContainer.Caches>
@@ -7627,7 +7630,7 @@
                                                   <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
                                                 </ActivityAction.Argument>
                                                 <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_48">
-                                                  <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: CloseButton (371,74,17,16)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Pedidos' (327,74,39,12)&quot;]" DesignTimeCacheId="f7103718-0214-409a-99d0-c98949835b30" DesignTimeScaleFactor="1" DisplayName="CV Click - CloseButton" sap:VirtualizedContainerService.HintSize="400,210" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_17" InformativeScreenshot="24c9b0dc1bcfcbbf7789199f2406e800" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                                                  <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: CloseButton (371,74,17,16)&quot; +&#xA;&quot;Anchor: Text 'Pedidos' (327,74,39,12)&quot;]" DesignTimeCacheId="f7103718-0214-409a-99d0-c98949835b30" DesignTimeScaleFactor="1" DisplayName="CV Click - CloseButton" sap:VirtualizedContainerService.HintSize="400,210" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_17" InformativeScreenshot="24c9b0dc1bcfcbbf7789199f2406e800" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
                                                     <p:CvClickWithDescriptor.CursorPosition>
                                                       <ui:CursorPosition Position="Center">
                                                         <ui:CursorPosition.OffsetX>
@@ -7664,6 +7667,9 @@
                                                 </Sequence>
                                               </ActivityAction>
                                             </p:CVScope.Body>
+                                            <p:CVScope.DesignTimeCache>
+                                              <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+                                            </p:CVScope.DesignTimeCache>
                                             <p:CVScope.DesignTimeCacheContainer>
                                               <uc:CvCacheContainer>
                                                 <uc:CvCacheContainer.Caches>
@@ -8636,7 +8642,7 @@
                                                   <DelegateInArgument x:TypeArguments="x:Object" Name="CVSessionData" />
                                                 </ActivityAction.Argument>
                                                 <Sequence DisplayName="Do" sap2010:WorkflowViewState.IdRef="Sequence_49">
-                                                  <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: CloseButton (386,73,18,17)&quot; +&#xD;&#xA;&quot;Anchor: Text 'Remisiones' (330,75,52,11)&quot;]" DesignTimeCacheId="851a2376-757b-4154-8469-65c6e1402c74" DesignTimeScaleFactor="1" DisplayName="CV Click - CloseButton" sap:VirtualizedContainerService.HintSize="400,210" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_18" InformativeScreenshot="75143dad90df42f9e1151821bf7441a8" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
+                                                  <p:CvClickWithDescriptor DelayBefore="{x:Null}" DelayMS="{x:Null}" DelayScreenshotAfterScroll="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" Descriptor="[&quot;Target: CloseButton (386,73,18,17)&quot; +&#xA;&quot;Anchor: Text 'Remisiones' (330,75,52,11)&quot;]" DesignTimeCacheId="851a2376-757b-4154-8469-65c6e1402c74" DesignTimeScaleFactor="1" DisplayName="CV Click - CloseButton" sap:VirtualizedContainerService.HintSize="400,210" sap2010:WorkflowViewState.IdRef="CvClickWithDescriptor_18" InformativeScreenshot="75143dad90df42f9e1151821bf7441a8" KeyModifiers="None" MouseButton="BTN_LEFT" NumberOfScrolls="2" ScrollDirection="None" Version="V6">
                                                     <p:CvClickWithDescriptor.CursorPosition>
                                                       <ui:CursorPosition Position="Center">
                                                         <ui:CursorPosition.OffsetX>
@@ -8673,6 +8679,9 @@
                                                 </Sequence>
                                               </ActivityAction>
                                             </p:CVScope.Body>
+                                            <p:CVScope.DesignTimeCache>
+                                              <uc:CVCache CvUiElements="{x:Null}" OcrTexts="{x:Null}" DataSent="False" />
+                                            </p:CVScope.DesignTimeCache>
                                             <p:CVScope.DesignTimeCacheContainer>
                                               <uc:CvCacheContainer>
                                                 <uc:CvCacheContainer.Caches>
