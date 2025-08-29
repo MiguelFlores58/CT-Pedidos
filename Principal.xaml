@@ -74,7 +74,7 @@
       <AssemblyReference>System.Runtime.Serialization.Primitives</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Flowchart DisplayName="Principal" sap:VirtualizedContainerService.HintSize="1296,688" sap2010:WorkflowViewState.IdRef="Flowchart_1">
+  <Flowchart DisplayName="Principal" sap:VirtualizedContainerService.HintSize="1296,682" sap2010:WorkflowViewState.IdRef="Flowchart_1">
     <Flowchart.Variables>
       <Variable x:TypeArguments="x:String" Name="strOpciones" />
     </Flowchart.Variables>
@@ -97,7 +97,7 @@
           <av:PointCollection x:Key="ConnectorLocation">610,205 610,235</av:PointCollection>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <ufa:ShowFormActivity Height="{x:Null}" InstanceName="{x:Null}" Left="{x:Null}" ShowInTaskbar="{x:Null}" ShowMargin="{x:Null}" Title="{x:Null}" Top="{x:Null}" TopMost="{x:Null}" Width="{x:Null}" WindowState="{x:Null}" DisplayName="Selecciona el proceso a realizar" FormId="fba3b70b-1cd7-41f7-a1a7-f010b962c952" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="ShowFormActivity_1" IsAsync="True">
+      <ufa:ShowFormActivity Height="{x:Null}" InstanceName="{x:Null}" Left="{x:Null}" ShowInTaskbar="{x:Null}" ShowMargin="{x:Null}" Title="{x:Null}" Top="{x:Null}" TopMost="{x:Null}" Width="{x:Null}" WindowState="{x:Null}" DisplayName="Selecciona el proceso a realizar" FormId="fba3b70b-1cd7-41f7-a1a7-f010b962c952" sap:VirtualizedContainerService.HintSize="110,70" sap2010:WorkflowViewState.IdRef="ShowFormActivity_1" IsAsync="False">
         <ufa:ShowFormActivity.Arguments>
           <InArgument x:TypeArguments="x:String" x:Key="seleccioneElProcesoARealizar">[strOpciones]</InArgument>
         </ufa:ShowFormActivity.Arguments>

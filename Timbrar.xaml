@@ -78,37 +78,37 @@
       <AssemblyReference>System.Runtime.InteropServices</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="Timbrar" sap:VirtualizedContainerService.HintSize="1290,2682" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="Timbrar" sap:VirtualizedContainerService.HintSize="1290,2640" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <sap:WorkflowViewStateService.ViewState>
       <scg:Dictionary x:TypeArguments="x:String, x:Object">
         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
       </scg:Dictionary>
     </sap:WorkflowViewStateService.ViewState>
-    <Sequence DisplayName="Principal" sap:VirtualizedContainerService.HintSize="586,2659" sap2010:WorkflowViewState.IdRef="Sequence_2">
+    <Sequence DisplayName="Principal" sap:VirtualizedContainerService.HintSize="653,2617" sap2010:WorkflowViewState.IdRef="Sequence_2">
       <sap:WorkflowViewStateService.ViewState>
         <scg:Dictionary x:TypeArguments="x:String, x:Object">
           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
         </scg:Dictionary>
       </sap:WorkflowViewStateService.ViewState>
-      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Remote Desktop: 10.112.20.12 - Conexión a Escritorio remoto" sap:VirtualizedContainerService.HintSize="552,2576" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="8cdcaa90-dbeb-4828-ab57-e208bcc8c153" Timeout="60" Version="V2">
+      <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Remote Desktop: 10.112.20.12 - Conexión a Escritorio remoto" sap:VirtualizedContainerService.HintSize="619,2534" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" ScopeGuid="8cdcaa90-dbeb-4828-ab57-e208bcc8c153" Timeout="60" Version="V2">
         <uix:NApplicationCard.Body>
           <ActivityAction x:TypeArguments="x:Object">
             <ActivityAction.Argument>
               <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
             </ActivityAction.Argument>
-            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="518,2260" sap2010:WorkflowViewState.IdRef="Sequence_3">
+            <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="585,2218" sap2010:WorkflowViewState.IdRef="Sequence_3">
               <sap:WorkflowViewStateService.ViewState>
                 <scg:Dictionary x:TypeArguments="x:String, x:Object">
                   <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
-              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Remote Desktop: timbradofiscal.exe" sap:VirtualizedContainerService.HintSize="484,57" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="71f4e037-f605-4126-8eef-5a8daac2359d" Timeout="60" Version="V2">
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Remote Desktop: timbradofiscal.exe" sap:VirtualizedContainerService.HintSize="551,57" sap2010:WorkflowViewState.IdRef="NApplicationCard_2" ScopeGuid="71f4e037-f605-4126-8eef-5a8daac2359d" Timeout="60" Version="V2">
                 <uix:NApplicationCard.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1441" sap2010:WorkflowViewState.IdRef="Sequence_4">
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1437" sap2010:WorkflowViewState.IdRef="Sequence_4">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -131,7 +131,7 @@
                         <uix:NTypeInto.Target>
                           <uix:TargetAnchorable CvElementArea="144, 229, 115, 21" CvType="InputBox" DesignTimeRectangle="147, 232, 110, 17" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'sle_usr'" FullSelectorArgument="&lt;wnd cls='pbdw115' title='none' /&gt;&lt;ctrl name='sle_usr' role='editable text' /&gt;" FuzzySelectorArgument="&lt;wnd cls='pbdw115' title='none' /&gt;&lt;ctrl name='sle_usr' role='editable text' automationid='' /&gt;" Guid="dedad873-9eb0-46e9-80d9-479031188351" InformativeScreenshot="4b6e8fe263ede3a55ec4b6d9e184b4f4.png" IsResponsive="True" ScopeSelectorArgument="&lt;rdp app='mstsc.exe' cls='TscShellContainerClass' title='10.112.20.12 - Conexión a Escritorio remoto' /&gt;&lt;wnd app='timbradofiscal.exe' cls='FNWNS*' idx='*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive">
                             <uix:TargetAnchorable.Anchors>
-                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                 <uix:Target CvTextArea="97, 232, 46, 11" CvTextArgument="Usuario:" CvType="Text" DesignTimeRectangle="87, 231, 56, 14" ElementType="Text" FriendlyName="'Usuario'" FullSelectorArgument="&lt;wnd cls='pbdw115' title='none' /&gt;&lt;ctrl name='sle_pass_t' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd cls='pbdw115' title='none' /&gt;&lt;ctrl name='sle_pass_t' role='text' automationid='' check:text='Usuario:' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
                               </scg:List>
                             </uix:TargetAnchorable.Anchors>
@@ -152,7 +152,7 @@
                         </ui:TypeInto.Target>
                       </ui:TypeInto>
                       <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="416,212" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" Shortcuts="[d(hk)][k(Enter)][u(hk)][d(hk)][k(enter)][u(hk)]" Version="V3" />
-                      <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,116" sap2010:WorkflowViewState.IdRef="Delay_1" />
+                      <Delay Duration="00:00:05" sap:VirtualizedContainerService.HintSize="416,114" sap2010:WorkflowViewState.IdRef="Delay_1" />
                     </Sequence>
                   </ActivityAction>
                 </uix:NApplicationCard.Body>
@@ -166,19 +166,19 @@
                   </scg:Dictionary>
                 </sap:WorkflowViewStateService.ViewState>
               </uix:NApplicationCard>
-              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Remote Desktop: Sistema Timbrado Fiscal                                 (05)   TRIO SOPORTE EMPR" sap:VirtualizedContainerService.HintSize="484,2141" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="3bd7e8c3-e9eb-4238-ae71-c6c9f842f215" Timeout="60" Version="V2">
+              <uix:NApplicationCard AttachMode="ByInstance" DisplayName="Use Remote Desktop: Sistema Timbrado Fiscal                                 (05)   TRIO SOPORTE EMPR" sap:VirtualizedContainerService.HintSize="551,2099" sap2010:WorkflowViewState.IdRef="NApplicationCard_3" ScopeGuid="3bd7e8c3-e9eb-4238-ae71-c6c9f842f215" Timeout="60" Version="V2">
                 <uix:NApplicationCard.Body>
                   <ActivityAction x:TypeArguments="x:Object">
                     <ActivityAction.Argument>
                       <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                     </ActivityAction.Argument>
-                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="450,1823" sap2010:WorkflowViewState.IdRef="Sequence_5">
+                    <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="517,1741" sap2010:WorkflowViewState.IdRef="Sequence_5">
                       <sap:WorkflowViewStateService.ViewState>
                         <scg:Dictionary x:TypeArguments="x:String, x:Object">
                           <x:Boolean x:Key="IsExpanded">True</x:Boolean>
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
-                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'menu item'" sap:VirtualizedContainerService.HintSize="416,139" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
+                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'menu item'" sap:VirtualizedContainerService.HintSize="450,139" sap2010:WorkflowViewState.IdRef="Click_1" KeyModifiers="None" MouseButton="BTN_LEFT">
                         <ui:Click.CursorPosition>
                           <ui:CursorPosition Position="Center">
                             <ui:CursorPosition.OffsetX>
@@ -200,29 +200,8 @@
                           </ui:Target>
                         </ui:Click.Target>
                       </ui:Click>
-                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'timbradofiscal.exe'" sap:VirtualizedContainerService.HintSize="416,139" sap2010:WorkflowViewState.IdRef="Click_2" KeyModifiers="None" MouseButton="BTN_LEFT">
-                        <ui:Click.CursorPosition>
-                          <ui:CursorPosition Position="Center">
-                            <ui:CursorPosition.OffsetX>
-                              <InArgument x:TypeArguments="x:Int32" />
-                            </ui:CursorPosition.OffsetX>
-                            <ui:CursorPosition.OffsetY>
-                              <InArgument x:TypeArguments="x:Int32" />
-                            </ui:CursorPosition.OffsetY>
-                          </ui:CursorPosition>
-                        </ui:Click.CursorPosition>
-                        <ui:Click.Target>
-                          <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Selector="{x:Null}" Id="f66f8498-a3f6-4480-81f9-a05541bb3acf" InformativeScreenshot="404855e250f68583e927057b8951734c">
-                            <ui:Target.TimeoutMS>
-                              <InArgument x:TypeArguments="x:Int32" />
-                            </ui:Target.TimeoutMS>
-                            <ui:Target.WaitForReady>
-                              <InArgument x:TypeArguments="ui:WaitForReady" />
-                            </ui:Target.WaitForReady>
-                          </ui:Target>
-                        </ui:Click.Target>
-                      </ui:Click>
-                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'menu item'" sap:VirtualizedContainerService.HintSize="416,139" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT">
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="450,212" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_7" Shortcuts="[d(hk)][k(Down)][u(hk)][d(hk)][k(enter)][u(hk)]" Version="V3" />
+                      <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'menu item'" sap:VirtualizedContainerService.HintSize="450,139" sap2010:WorkflowViewState.IdRef="Click_3" KeyModifiers="None" MouseButton="BTN_LEFT">
                         <ui:Click.CursorPosition>
                           <ui:CursorPosition Position="Center">
                             <ui:CursorPosition.OffsetX>
@@ -244,13 +223,64 @@
                           </ui:Target>
                         </ui:Click.Target>
                       </ui:Click>
-                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'timbradofiscal.exe'" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3bd7e8c3-e9eb-4238-ae71-c6c9f842f215" Version="V3">
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'timbradofiscal.exe'" sap:VirtualizedContainerService.HintSize="450,190" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3bd7e8c3-e9eb-4238-ae71-c6c9f842f215" Version="V3">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable DesignTimeRectangle="33, 4, 284, 21" DesignTimeScaleFactor="1" FriendlyName="'timbradofiscal.exe'" Guid="f11ba7af-0173-46e5-ac42-c0b1e0b9c525" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAARwAAAAVCAYAAACUjFGcAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAATsSURBVHhe7ZlrtqQqDIUdleNxNg7GuTiWmoFNQHAnJIh2Fb3uXfnxrS557DyAiKenz+dzOI7jjMALjuM4w/CC4zjOMLzgOI4zDC84juMMoxScbZmOaaqZ1/347OsxT/Ox7rVAm+1YXs3rhfQVf9Wx/5BtOaZlE+2n72r7L3OGDLBFsc/rsWt9aP/1Hkvs6yxyuR/rDHuj+GDtGas961H/cmzlWUGJlc4V06/WOxH9L/FDXpSx/ciYULMn3rr/iiePe4Zyw/lWsMQ3tTS+pf9LP2nja9rJ5hwOxbLV7fe+fMPnX8ZNBH2z2BCW/Yd+UbFCO7F4ibyGtjU+99qk53DQSoGg55uCE6ADWewyv5L+bO4FOtS5T/ryFq4Ti5rwpx2v5oO1n/vwghP5oZ+06dS32mlzE4el25dv+PzDuIl9bxQbwrL/zC86SNdbN91seBFHHtiMhSsXGeq/LzhYZFjxOfWXBX09iTfgBew/i99G6uCzYqOK1/BBvbH30VlwFEfpoMSqnJKaroTX1YvNg7GyjxZgOoNkn3Wi0uI43S+OrkXwq/aykYYcK3XxufbHtpXyom/+S5PmVznLtuMmuPSTFo2pbbb8KIDevK4NW9bhkvmjtjonppZpP8etx6bngRBv3DjO8p0Q+W22Y/Gi/pbuRSyAwSe+Bhgf6mT/0b7mC4J+naifrlLnzoaM1/CBclzZ6uNlwQmLng1SoOG5HJj4nBMqxsbNwHWqal/m9Y67NiHfiDgma6WE1lo45u452bz3Oz9bm1RqWr8hpip/aAux+rheekkYemEd6xhb+cN2S6vXvpgv5tV5gBzfHoakVe8ZaZOQB7Cv4OhaVxu9GFgs0V+co80X0DmDgsY0C1wn5rvkRrMh49XylPt6c8F5f8Mp/a3nWutKTN2Xi1fC1rho9GlacaNqiZI6rWfFpup3atcLEyF0ygaCdsXf5/kDqsMobeW5J/KW1Js/S6tl3/wdUOzyPECf6WNGaDfb6QCiTy3di+hb+ETiNw7Qhzzo62n5iKA/4TezhWNwHdB/zYaM1/IBxz1jcMGRFRT62EbpDdzos7TMzSh1Ws+iz/T7blGkjZwbaFf8NQuO6QdAY5oFR8sNYI5p+QK07Ju/A4qeWXBKHq+xHKHdamd2pR0DKvoxRukH6p/rw/5+h/2Wj5z46RZeaPnfekxLR+mr4m3N7ciFwoCCA1ftVkBlofI4yx5i9JlaaRPUiyN1xGaJNwfDH8sW/ZY3BIbie5xPbyK0BX7E/qf5Q7he/UljfSpmevNnad3Z137X83gezsNbxgbiesH4c86b/6W6NOj57pAJX+7Wi+UI+6UvBqQ/L+F2Y41t6cg+epbxGnOj3VwonzHkhpP+mJiudXZAaTPHcSyJchxi9VlaBM05+8AfemPGtlwkzg2R2lr/g6DbosPENnyF7js/hIG4aU99MZ773IoZgLjafzQOqAVTy58Si6Vl2uca1Xo08qC+4aX9ckD0vMu4pI3UfxYPikE5cNFnkbOrTdql9cIChv3SF614JzSbF9Km7EMbWrzGXIrftNlGKTjO3xMW6+UbwHkBFZeB+aZD3n6ZjGO8L1QorSJ2jxcc539BvBm+fOs+g978d59WgxhcaIn2jeoeLziO858jfz6/v2n8K7zgOI4zDC84juMMwwuO4zjD8ILjOM4gPscfaALUSH82o8gAAAAASUVORK5CYII=" InformativeScreenshot="0422afbfad1a5ff4ab210be8ed08cac3.png" ScopeSelectorArgument="&lt;rdp app='mstsc.exe' cls='TscShellContainerClass' title='10.112.20.12 - Conexión a Escritorio remoto' /&gt;&lt;wnd app='timbradofiscal.exe' cls='#32768' idx='*' /&gt;" SearchSteps="Image" TargetType="ImageBased" Version="V2" Visibility="Interactive" />
                         </uix:NClick.Target>
                       </uix:NClick>
-                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="416,212" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" Shortcuts="[d(hk)][k(f5)][u(hk)]" Version="V3" />
-                      <ui:Check AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Action="Check" DisplayName="Check 'check box  generar'" sap:VirtualizedContainerService.HintSize="416,139" sap2010:WorkflowViewState.IdRef="Check_1">
+                      <Sequence DisplayName="Procesar" sap:VirtualizedContainerService.HintSize="450,57" sap2010:WorkflowViewState.IdRef="Sequence_6">
+                        <sap:WorkflowViewStateService.ViewState>
+                          <scg:Dictionary x:TypeArguments="x:String, x:Object">
+                            <x:Boolean x:Key="IsExpanded">False</x:Boolean>
+                            <x:Boolean x:Key="IsPinned">False</x:Boolean>
+                          </scg:Dictionary>
+                        </sap:WorkflowViewStateService.ViewState>
+                        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'menu item  Edición'" sap:VirtualizedContainerService.HintSize="416,139" sap2010:WorkflowViewState.IdRef="Click_4" KeyModifiers="None" MouseButton="BTN_LEFT">
+                          <ui:Click.CursorPosition>
+                            <ui:CursorPosition Position="Center">
+                              <ui:CursorPosition.OffsetX>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:CursorPosition.OffsetX>
+                              <ui:CursorPosition.OffsetY>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:CursorPosition.OffsetY>
+                            </ui:CursorPosition>
+                          </ui:Click.CursorPosition>
+                          <ui:Click.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="96eb9bcd-72bc-4fcc-9056-c673ec7708ac" InformativeScreenshot="224aeef71fc89e43a4c07bef83aa8555" Selector="&lt;ctrl automationid='MenuBar' name='Aplicación' role='menu bar' /&gt;&lt;ctrl name='Edición' role='menu item' /&gt;">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:Click.Target>
+                        </ui:Click>
+                        <ui:Click AlterIfDisabled="{x:Null}" DelayBefore="{x:Null}" DelayMS="{x:Null}" SendWindowMessages="{x:Null}" SimulateClick="{x:Null}" ClickType="CLICK_SINGLE" DisplayName="Click 'menu item  Procesar F5'" sap:VirtualizedContainerService.HintSize="416,132" sap2010:WorkflowViewState.IdRef="Click_5" KeyModifiers="None" MouseButton="BTN_LEFT">
+                          <ui:Click.CursorPosition>
+                            <ui:CursorPosition Position="Center">
+                              <ui:CursorPosition.OffsetX>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:CursorPosition.OffsetX>
+                              <ui:CursorPosition.OffsetY>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:CursorPosition.OffsetY>
+                            </ui:CursorPosition>
+                          </ui:Click.CursorPosition>
+                          <ui:Click.Target>
+                            <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="a6e34d96-7ea8-423f-9134-d056e37dd28f" InformativeScreenshot="d2b96f06f1550e3034a28fae0d429754" Selector="&lt;rdp app='mstsc.exe' cls='TscShellContainerClass' title='10.112.20.12 - Conexión a Escritorio remoto' /&gt;&lt;wnd app='timbradofiscal.exe' cls='#32768' idx='*' /&gt;&lt;ctrl name='Edición' role='popup menu' /&gt;&lt;ctrl automationid='10150' /&gt;">
+                              <ui:Target.TimeoutMS>
+                                <InArgument x:TypeArguments="x:Int32" />
+                              </ui:Target.TimeoutMS>
+                              <ui:Target.WaitForReady>
+                                <InArgument x:TypeArguments="ui:WaitForReady" />
+                              </ui:Target.WaitForReady>
+                            </ui:Target>
+                          </ui:Click.Target>
+                        </ui:Click>
+                      </Sequence>
+                      <ui:Check AlterIfDisabled="{x:Null}" ContinueOnError="{x:Null}" DelayAfter="{x:Null}" DelayBefore="{x:Null}" Action="Check" DisplayName="Check 'check box  generar'" sap:VirtualizedContainerService.HintSize="450,139" sap2010:WorkflowViewState.IdRef="Check_1">
                         <ui:Check.Target>
                           <ui:Target ClippingRegion="{x:Null}" Element="{x:Null}" Id="130ee1cc-2634-4bb9-8d64-bfeace96de87" InformativeScreenshot="3f6516d2b37684f2a1e7e0ff664eac83" Selector="&lt;wnd cls='FNWND*' title='Timbrar CFDI Facturacion' /&gt;&lt;wnd cls='pbdw115' /&gt;&lt;ctrl name='generar' role='check box' /&gt;">
                             <ui:Target.TimeoutMS>
@@ -262,14 +292,20 @@
                           </ui:Target>
                         </ui:Check.Target>
                       </ui:Check>
-                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Edit'" sap:VirtualizedContainerService.HintSize="416,190" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3bd7e8c3-e9eb-4238-ae71-c6c9f842f215" Version="V3">
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Folio Carta Porte'" sap:VirtualizedContainerService.HintSize="450,190" sap2010:WorkflowViewState.IdRef="NClick_2" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3bd7e8c3-e9eb-4238-ae71-c6c9f842f215" Version="V3">
                         <uix:NClick.Target>
-                          <uix:TargetAnchorable DesignTimeRectangle="268, 367, 69, 14" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'Edit'" FullSelectorArgument="&lt;wnd cls='Edit' idx='6' /&gt;" FuzzySelectorArgument="&lt;wnd cls='Edit' /&gt;" Guid="5476bd56-9f9c-468d-a1fc-cf04716a3db0" InformativeScreenshot="fbce54c4cf9191a558fbffbc58c341e8.png" ScopeSelectorArgument="&lt;rdp app='mstsc.exe' cls='TscShellContainerClass' title='10.112.20.12 - Conexión a Escritorio remoto' /&gt;&lt;wnd app='timbradofiscal.exe' cls='FNWND*' title='Sistema Timbrado Fiscal                                 (05)   T*' /&gt;&lt;wnd cls='FNWND*' title='Timbrar CFDI Facturacion' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive" />
+                          <uix:TargetAnchorable DesignTimeRectangle="318, 365, 69, 14" DesignTimeScaleFactor="1" ElementType="InputBox" FriendlyName="'folio_carta_porte'" FullSelectorArgument="&lt;wnd cls='FNWND*' title='Timbrar CFDI Facturacion' /&gt;&lt;wnd cls='pbdw115' /&gt;&lt;ctrl name='folio_carta_porte' role='editable text' /&gt;" FuzzySelectorArgument="&lt;wnd cls='FNWND*' title='Timbrar CFDI Facturacion' /&gt;&lt;wnd cls='pbdw115' /&gt;&lt;ctrl name='folio_carta_porte' role='editable text' automationid='' /&gt;" Guid="19cc1a00-6ab0-4a03-bcc1-8b6c5fcb459a" InformativeScreenshot="64cff37fa480d7b8604a124225ddb12b.png" ScopeSelectorArgument="&lt;rdp app='mstsc.exe' cls='TscShellContainerClass' title='10.112.20.12 - Conexión a Escritorio remoto' /&gt;&lt;wnd app='timbradofiscal.exe' cls='FNWND*' title='Sistema Timbrado Fiscal                                 (05)   T*' /&gt;" SearchSteps="Selector, FuzzySelector" Version="V2" Visibility="Interactive">
+                            <uix:TargetAnchorable.Anchors>
+                              <scg:List x:TypeArguments="uix:ITarget" Capacity="4">
+                                <uix:Target CvTextArea="332, 391, 26, 11" CvTextArgument="Porte" CvType="Text" DesignTimeRectangle="318, 383, 69, 29" ElementType="Text" FriendlyName="'Folio Carta Porte'" FullSelectorArgument="&lt;wnd cls='FNWND*' title='Timbrar CFDI Facturacion' /&gt;&lt;wnd cls='pbdw115' idx='10' /&gt;&lt;ctrl name='folio_carta_porte_t' role='text' /&gt;" FuzzySelectorArgument="&lt;wnd cls='FNWND*' title='Timbrar CFDI Facturacion' /&gt;&lt;wnd cls='pbdw115' /&gt;&lt;ctrl name='folio_carta_porte_t' role='text' automationid='' check:text='Folio Carta Porte' /&gt;" SearchSteps="Selector, FuzzySelector, CV" />
+                              </scg:List>
+                            </uix:TargetAnchorable.Anchors>
+                          </uix:TargetAnchorable>
                         </uix:NClick.Target>
                       </uix:NClick>
-                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(tab)][u(hk)]" Version="V3" />
-                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="416,212" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" Shortcuts="[d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(down)][u(hk)]" Version="V3" />
-                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Timbrar CFDI'" sap:VirtualizedContainerService.HintSize="416,183" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3bd7e8c3-e9eb-4238-ae71-c6c9f842f215" Version="V3">
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="450,218" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_5" Shortcuts="[d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(Tab)][u(hk)][d(hk)][k(tab)][u(hk)]" Version="V3" />
+                      <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Keyboard Shortcuts" sap:VirtualizedContainerService.HintSize="450,212" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_6" Shortcuts="[d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(Down)][u(hk)][d(hk)][k(down)][u(hk)]" Version="V3" />
+                      <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Click 'Timbrar CFDI'" sap:VirtualizedContainerService.HintSize="450,183" sap2010:WorkflowViewState.IdRef="NClick_3" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="3bd7e8c3-e9eb-4238-ae71-c6c9f842f215" Version="V3">
                         <uix:NClick.Target>
                           <uix:TargetAnchorable CvElementArea="484, 291, 149, 24" CvTextArea="526, 297, 64, 11" CvTextArgument="Timbrar CFDI" CvType="Button" DesignTimeRectangle="492, 298, 146, 22" DesignTimeScaleFactor="1" ElementType="Button" FriendlyName="'Timbrar CFDI'" FullSelectorArgument="&lt;wnd cls='FNWND*' title='Timbrar CFDI Facturacion' /&gt;&lt;wnd cls='pbdw115' idx='11' /&gt;&lt;ctrl name='Timbrar CFDI' role='push button' /&gt;" FuzzySelectorArgument="&lt;wnd cls='FNWND*' title='Timbrar CFDI Facturacion' /&gt;&lt;wnd cls='pbdw115' /&gt;&lt;ctrl name='Timbrar CFDI' role='push button' automationid='' check:text='Timbrar CFDI' /&gt;" Guid="2bfa1144-dfab-47aa-a81c-e196a509ca49" InformativeScreenshot="33a0c45e4829822c9065a7f8af5ac927.png" ScopeSelectorArgument="&lt;rdp app='mstsc.exe' cls='TscShellContainerClass' title='10.112.20.12 - Conexión a Escritorio remoto' /&gt;&lt;wnd app='timbradofiscal.exe' cls='FNWND*' title='Sistema Timbrado Fiscal                                 (05)   T*' /&gt;" SearchSteps="Selector, FuzzySelector, CV" Version="V2" Visibility="Interactive" />
                         </uix:NClick.Target>
